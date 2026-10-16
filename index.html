@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FaceitMurk — политика конфиденциальности</title>
+<style>
+  :root { --bg: #0d0d10; --card: #16161b; --line: #26262d; --text: #ececf1; --muted: #a0a0ab; --accent: #ff5500; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-image: radial-gradient(60% 40% at 50% 0%, rgba(255, 85, 0, .14), transparent 70%); }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 80px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .logo { width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, #ff9a3c, #ff5500 45%, #d4145a);
+    display: grid; place-items: center; box-shadow: 0 8px 24px rgba(255, 85, 0, .35); }
+  h1 { margin: 0; font-size: 30px; letter-spacing: -.02em; }
+  .date { color: var(--muted); margin: 0 0 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; margin-bottom: 14px; }
+  h2 { margin: 0 0 10px; font-size: 18px; }
+  h2::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-right: 10px; vertical-align: middle; }
+  p, li { color: var(--muted); }
+  p { margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 4px 0; }
+  b { color: var(--text); font-weight: 600; }
+  a { color: #ff8a4c; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo"><svg width="26" height="26" viewBox="30 34 70 58" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M36 88V48L54 70L66 56L78 70L92 42"/></svg></div>
+    <h1>Политика конфиденциальности FaceitMurk</h1>
+  </header>
+  <p class="date">Действует с 16 октября 2026 года</p>
+
+  <section>
+    <h2>Коротко</h2>
+    <p>FaceitMurk — браузерное расширение, которое показывает расширенную статистику на сайте faceit.com. Мы собираем минимум данных и только для работы функций. Мы <b>не продаём</b> данные, <b>не показываем рекламу</b> и <b>не отслеживаем</b>, какие сайты вы посещаете.</p>
+  </section>
+
+  <section>
+    <h2>Какие данные мы храним</h2>
+    <p>Если вы <b>не входите</b> через FACEIT, все настройки остаются только в вашем браузере, а на наш сервер ничего не отправляется.</p>
+    <p>Если вы <b>входите через FACEIT</b>, на нашем сервере хранится:</p>
+    <ul>
+      <li><b>FACEIT ID, ник и ссылка на аватар</b>: чтобы узнать вас при следующем входе;</li>
+      <li><b>настройки расширения</b>: включённые функции, ник, параметры оформления и анализа;</li>
+      <li><b>сессия входа</b>: хранится только в виде хеша, сам токен остаётся в вашем браузере.</li>
+    </ul>
+    <p>Пароль от FACEIT мы не получаем: вход проходит на официальной странице FACEIT. Email мы не запрашиваем. Изображение, которое вы загружаете для обоев, хранится только в вашем браузере.</p>
+  </section>
+
+  <section>
+    <h2>Что расширение делает на faceit.com</h2>
+    <p>Расширение читает ники и идентификаторы матчей прямо на странице, чтобы показать рядом статистику. Эти данные обрабатываются в вашем браузере и не сохраняются у нас.</p>
+  </section>
+
+  <section>
+    <h2>С кем обмениваемся данными</h2>
+    <ul>
+      <li><b>FACEIT</b> (open.faceit.com, faceit.com): отсюда берём публичную статистику игроков и матчей и через этот сервис выполняем вход;</li>
+      <li><b>Supabase</b>: здесь хранятся аккаунты и облачные настройки, сервер находится в ЕС (Франкфурт);</li>
+      <li><b>облачные регионы</b> (AWS, Google Cloud и др.): к ним отправляются пустые запросы, чтобы замерить пинг до игровых серверов, личные данные не передаются.</li>
+    </ul>
+    <p>Больше никому данные не передаются.</p>
+  </section>
+
+  <section>
+    <h2>Удаление данных</h2>
+    <p>Кнопка «Выйти» в расширении удаляет сессию входа. Чтобы полностью удалить аккаунт и настройки с сервера, напишите на <a href="mailto:gurbanovartem0@gmail.com">gurbanovartem0@gmail.com</a>. Мы удалим всё в течение 30 дней. Локальные данные удаляются вместе с расширением.</p>
+  </section>
+
+  <section>
+    <h2>Изменения и контакты</h2>
+    <p>Если политика изменится, новая версия появится на этой странице с новой датой. Вопросы можно задать по адресу <a href="mailto:gurbanovartem0@gmail.com">gurbanovartem0@gmail.com</a>.</p>
+  </section>
+
+  <footer>FaceitMurk — неофициальное расширение и не связано с FACEIT.</footer>
+</main>
+</body>
+</html>
